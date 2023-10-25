@@ -1,33 +1,3 @@
-class player {
-    constructor(){
-        this.hand = []
-    }
-
-    discard() {
-        // ...
-    }
-    
-    useCard() {
-        // ...
-    }
-}
-
-class game {
-    constructor () {
-        this.deck = []
-        this.players = []
-    }
-
-    draw() {
-        // ...
-    }
-    
-    shovel() {
-        // ...
-    }
-}
-
-
 let player = new player()
 
 // Smile life => 200 cartes

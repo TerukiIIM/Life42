@@ -1,0 +1,508 @@
+[
+    {
+        "name": "Flirt cimetière",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt montagne",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt eglise",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt boite de nuit",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt parc",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt hotel",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt camping",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt bibliothèque",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt cinéma",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Flirt bar",
+        "smile": 1,
+        "type": "amour",
+        "quantity": 2
+    },
+    {
+        "name": "Leia",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Hermione",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Lara",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Luke",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Diana",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Mario",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Zelda",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Luigi",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Harry",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Rocky",
+        "smile": 2,
+        "type": "enfant",
+        "quantity": 1
+    },
+    {
+        "name": "Marriage",
+        "smile": 3,
+        "type": "marriage",
+        "quantity": 7
+    },
+    {
+        "name": "Salaire 1",
+        "smile": 1,
+        "type": "salaire",
+        "quantity": 10,
+        "value": 1
+    },
+    {
+        "name": "Salaire 2",
+        "smile": 1,
+        "type": "salaire",
+        "quantity": 10,
+        "value": 2
+    },
+    {
+        "name": "Salaire 3",
+        "smile": 1,
+        "type": "salaire",
+        "quantity": 10,
+        "value": 3
+    },
+    {
+        "name": "Salaire 4",
+        "smile": 1,
+        "type": "salaire",
+        "quantity": 10,
+        "value": 4
+    },
+    {
+        "name": "Miaouu",
+        "smile": 1,
+        "type": "animal",
+        "quantity": 1
+    },
+    {
+        "name": "ouaf",
+        "smile": 1,
+        "type": "animal",
+        "quantity": 1
+    },
+    {
+        "name": "honk",
+        "smile": 1,
+        "type": "animal",
+        "quantity": 1
+    },
+    {
+        "name": "Piouuu",
+        "smile": 1,
+        "type": "animal",
+        "quantity": 1
+    },
+    {
+        "name": "Licorne",
+        "smile": 3,
+        "type": "animal",
+        "quantity": 1
+    },
+    {
+        "name": "Etudes",
+        "smile": 1,
+        "type": "etude",
+        "quantity": 25,
+        "value": 1
+    },
+    {
+        "name": "Etudes Sup",
+        "smile": 1,
+        "type": "etude",
+        "quantity": 3,
+        "value": 2
+    },
+    {
+        "name": "Serveur",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Interimaire",
+        "quantity": 1,
+        "value": 1,
+        "require": 0
+    },
+    {
+        "name": "Barman",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Interimaire",
+        "quantity": 1,
+        "value": 1,
+        "require": 0,
+        "status": "flirt illimité avant marriage"
+    },
+    {
+        "name": "Militaire",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Fonctionnaire",
+        "quantity": 1,
+        "value": 1,
+        "require": 0,
+        "status": "Aucun attentat ne peut vous toucher"
+    },
+    {
+        "name": "Stripteaser",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Interimaire",
+        "quantity": 1,
+        "value": 1,
+        "require": 0
+    },
+    {
+        "name": "Ecrivain",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "GP",
+        "quantity": 1,
+        "value": 1,
+        "require": 0
+    },
+    {
+        "name": "Medium",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 1,
+        "require": 0,
+        "status": "Vous voyez les 13 cartes du deck"
+    },
+    {
+        "name": "Jardinier",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 1,
+        "require": 1
+    },
+    {
+        "name": "Pizzaiolo",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 2,
+        "require": 0
+    },
+    {
+        "name": "Gourou",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 3,
+        "require": 0
+    },
+    {
+        "name": "Bandit",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 4,
+        "require": 0,
+        "status": "Ni impot ni licenciement"
+    },
+    {
+        "name": "Plombier",
+        "smile": 2,
+        "type": "Interimaire",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 1,
+        "require": 1
+    },
+    {
+        "name": "Garagiste",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 2,
+        "require": 1,
+        "status": "Aucun accident"
+    },
+    {
+        "name": "Policier",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Fonctionnaire",
+        "quantity": 1,
+        "value": 1,
+        "require": 1,
+        "status": "Ni gourou ni bandit"
+    },
+    {
+        "name": "Prof Anglais",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Fonctionnaire",
+        "quantity": 1,
+        "value": 2,
+        "require": 2
+    },
+    {
+        "name": "Prof Francais",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Fonctionnaire",
+        "quantity": 1,
+        "value": 2,
+        "require": 2
+    },
+    {
+        "name": "Prof Histoire",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Fonctionnaire",
+        "quantity": 1,
+        "value": 2,
+        "require": 2
+    },
+    {
+        "name": "Prof Maths",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Fonctionnaire",
+        "quantity": 1,
+        "value": 2,
+        "require": 2
+    },
+    {
+        "name": "Grand Prof",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Fonctionnaire",
+        "quantity": 1,
+        "value": 3,
+        "require": -1
+    },
+    {
+        "name": "Journaliste",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "GP",
+        "quantity": 1,
+        "value": 2,
+        "require": 3,
+        "status": "Voir le jeu de tous"
+    },
+    {
+        "name": "Chef des achats/ventes",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 2,
+        "value": 3,
+        "require": 3,
+        "status": "peut troc avec un joueur avec une carte en moins"
+    },
+    {
+        "name": "Designer",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 3,
+        "require": 4
+    },
+    {
+        "name": "Architecte",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 3,
+        "require": 4,
+        "status": "maison offerte en la posant"
+    },
+    {
+        "name": "Avocat",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 3,
+        "require": 4,
+        "status": "aucun divorce"
+    },
+    {
+        "name": "Pharmacien",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 3,
+        "require": 5,
+        "status": "aucune maladie"
+    },
+    {
+        "name": "Pilote de ligne",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 4,
+        "require": 5,
+        "status": "voyage gratuit"
+    },
+    {
+        "name": "Chercheur",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "GP",
+        "quantity": 1,
+        "value": 2,
+        "require": 6,
+        "status": "6 cartes en main"
+    },
+    {
+        "name": "Medecin/Chirurgien",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 2,
+        "value": 4,
+        "require": 6,
+        "status": "aucune maladie & etudes continues"
+    },
+    {
+        "name": "Astonaute",
+        "smile": 2,
+        "type": "metier",
+        "typeMetier": "Normal",
+        "quantity": 1,
+        "value": 4,
+        "require": 6,
+        "status": "choisir une carte dans la defausse"
+    },
+    {
+        "name": "Grand Voyage",
+        "smile": 1,
+        "type": "voyage",
+        "quantity": 5,
+        "require": 3
+    },
+    {
+        "name": "Maison 1",
+        "smile": 1,
+        "type": "maison",
+        "quantity": 2,
+        "require": 6
+    },
+    {
+        "name": "Maison 2",
+        "smile": 2,
+        "type": "maison",
+        "quantity": 2,
+        "require": 8
+    },
+    {
+        "name": "Maison 3",
+        "smile": 3,
+        "type": "maison",
+        "quantity": 1,
+        "require": 10
+    },
+    {
+        "name": "Legion Honneur",
+        "smile": 3,
+        "type": "decoration",
+        "quantity": 1
+    },
+    {
+        "name": "Grand Prix Excellence",
+        "smile": 4,
+        "type": "decoration",
+        "quantity": 2
+    }
+
+]
