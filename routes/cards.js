@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const fs = require('fs');
+const CardService = require('../services/cardService');
 
 // middleware that is specific to this router
 router.use((req, res, next) => {
@@ -15,9 +15,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/getAllCards', (req, res) => {
-    fs.readFile('./config/cards.json', 'utf8', (err, jsonString) => {
-        res.json(JSON.parse(jsonString));
-    })
+    CardService.getAllCards(res);
 })
 
 
