@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Smile Life</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="...">
+        <meta name="description" content="Création du jeu de carte Smile LIFE en ligne">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-iconx" href="./Images/Icon.jpg">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body> 
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="./Images/Icon.jpg" alt="">
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="howToPlay.html">How to play</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Support</a></li>
+                </ul>
+            </div>
+            <img src="./Images/Menu.png" alt="..." class="menu-hamburger">
+        </nav>
+
+        <header>
+            <div class="text-box">
+                <h1>Smile Life</h1>
+                <p></p>
+                <a href="play.html" class="hero-btn">Play Now</a>
+            </div>
+        </header>
+    </body>
+    
+    <script src="./Game.js"></script>
+    
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+        const textBox = document.querySelector(".text-box");
+        const heroBtn = document.querySelector(".hero-btn");
+
+        menuHamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("mobile-menu");
+            textBox.style.display = navLinks.classList.contains("mobile-menu") ? "none" : "block";
+            heroBtn.style.display = navLinks.classList.contains("mobile-menu") ? "none" : "inline-block";
+        })
+    </script>
+</html>
