@@ -29,15 +29,18 @@
             <div class="text-box">
                 <h1>Smile Life</h1>
                 <p></p>
-                <button onclick="startGame()" class="hero-btn">Play Now</button>
+                <button onclick="createRoom()" class="hero-btn">Create</button>
             </div>
         </header>
     </body>
     
     <script src="/socket.io/socket.io.js"></script>
 
-    <script src="./socket.js"></script>
-    <script src="./Game.js"></script>
+    <script src="./js/roomSystem.js"></script>
+
+    <script src="./js/socket.js"></script>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Player.js"></script>
     
     <script>
         const menuHamburger = document.querySelector(".menu-hamburger")

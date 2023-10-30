@@ -1,7 +1,12 @@
 class Game {
     constructor () {
+        this.id = "";
         this.deck = []
         this.players = []
+    }
+
+    static createGame() {
+        
     }
 
     draw() {
