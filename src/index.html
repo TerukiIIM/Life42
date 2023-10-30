@@ -29,7 +29,7 @@
             <div class="text-box">
                 <h1>Smile Life</h1>
                 <p></p>
-                <a href="play.html" class="hero-btn">Play Now</a>
+                <button onclick="startGame()" class="hero-btn">Play Now</button>
             </div>
         </header>
     </body>
@@ -50,5 +50,9 @@
             textBox.style.display = navLinks.classList.contains("mobile-menu") ? "none" : "block";
             heroBtn.style.display = navLinks.classList.contains("mobile-menu") ? "none" : "inline-block";
         })
+
+        function startGame(){
+            socket.emit('Game', "Start");
+        }
     </script>
 </html>

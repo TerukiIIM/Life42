@@ -18,6 +18,10 @@ router.get('/getAllCards', (req, res) => {
     CardService.getAllCards(res);
 })
 
+router.get('/generateDraw', (req, res) => {
+    CardService.generateDraw(res);
+})
+
 
 
 module.exports = router
