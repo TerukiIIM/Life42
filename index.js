@@ -1,19 +1,19 @@
-const express = require('express')
-var favicon = require('serve-favicon')
+const http = require("http");
+const express = require("express");
+const socketio = require("socket.io");
 
-const app = express()
-const port = 3000
+const PORT = 3000
 
-const cardRouter = require('./routes/cards');
+const app = express();
+const server = http.createServer(app);
+const io = socketio(server);
 
-app.use(express.static('src'));
+app.use("/", express.static(`${__dirname}/src`));
 
-app.use('/card', cardRouter);
+io.on("connection", (socket) => {
+  console.log("a user connected");
+});
 
-app.get('/', (req, res) => {
-  res.sendFile('index.html')
-})
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+server.listen(PORT, () => {
+  console.log(`Listening on port ${PORT}`)
 })
