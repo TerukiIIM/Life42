@@ -15,8 +15,6 @@ class CardService {
             var draw = []
             cardJson.forEach(card => {
                 let numToAdd = card.quantity;
-                console.log("card2 : " + card);
-                console.log("cardQuantity : " + card.quantity);
                 for(var i = 0; i < numToAdd; i++) {                    
                     draw.push(card)
                 }
