@@ -3,13 +3,9 @@ const fs = require('fs');
 const UtilitiesService = require('../services/utilitiesService');
 
 class CardService {
-    static getAllCards(res) {
-        fs.readFile('./config/cards.json', 'utf8', (err, jsonString) => {
-            res.json(JSON.parse(jsonString));
-        })
-    }
 
-    static generateDraw(res){
+    static generateDraw(){
+        var result = [];
         fs.readFile('./config/cards.json', 'utf8', (err, jsonString) => {
             const cardJson = JSON.parse(jsonString);
             var draw = []
@@ -19,8 +15,9 @@ class CardService {
                     draw.push(card)
                 }
             });
-            res.json(UtilitiesService.shuffle(draw));
-        })
+            result = UtilitiesService.shuffle(draw);
+        });
+        return result;
     }
 }
 

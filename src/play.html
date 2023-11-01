@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <title>Smile Life</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="author" content="...">
-        <meta name="description" content="Création du jeu de carte Smile LIFE en ligne">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/x-iconx" href="./Images/Icon.jpg">
-        <link href="style.css" rel="stylesheet" type="text/css" />
-    </head> 
-    <body>
-        
-    </body>
-    <script src="script.js"></script>
+
+<head>
+    <title>Smile Life</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="...">
+    <meta name="description" content="Création du jeu de carte Smile LIFE en ligne">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-iconx" href="./Images/Icon.jpg">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const orderSocket = io("/party");
+
+        orderSocket.on('connection', socket => {
+            console.log("Someone connected");
+        })
+    </script>
+
+</body>
+
 </html>
