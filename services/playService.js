@@ -2,6 +2,7 @@ const socketio = require('socket.io');
 socketio.of('/party');
 
 const CardService = require('../services/cardService');
+const UtilitiesService = require('../services/utilitiesService');
 
 class PlayService {
 
@@ -10,6 +11,11 @@ class PlayService {
         this.currentPlayer = null;
         this.draw = CardService.generateDraw();
         this.turnOrder = [];
+    }
+
+    generateOrder() {
+        var turnOrder = UtilitiesService.shuffle(UtilitiesService.generateArrayOfIndex(this.players));
+        this.turnOrder = turnOrder;
     }
 
     isGameOver() {
@@ -44,6 +50,10 @@ class PlayService {
             draw: this.draw,
             turnOrder: this.turnOrder
         }
+    }
+
+    get getTurnOrder() {
+        return this.turnOrder;
     }
 
 }
