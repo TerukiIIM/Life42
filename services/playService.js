@@ -1,8 +1,6 @@
-const socketio = require('socket.io');
-socketio.of('/party');
-
 const CardService = require('../services/cardService');
 const UtilitiesService = require('../services/utilitiesService');
+  
 
 class PlayService {
 
