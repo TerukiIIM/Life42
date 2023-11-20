@@ -4,11 +4,20 @@ const UtilitiesService = require('../services/utilitiesService');
 
 class PlayService {
 
-    constructor(players) {
-        this.players = players;
+    constructor() {
+        this.players = [];
         this.currentPlayer = null;
         this.draw = CardService.generateDraw();
         this.turnOrder = [];
+    }
+
+    addPlayer(player) {
+        var index = this.players.push(player);
+        return index;
+    }
+
+    removePlayer(index) {
+        return this.players.splice(index, 1);
     }
 
     generateOrder() {

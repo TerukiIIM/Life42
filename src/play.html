@@ -8,20 +8,29 @@
     <meta name="author" content="...">
     <meta name="description" content="Création du jeu de carte Smile LIFE en ligne">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-iconx" href="./Images/Icon.jpg">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+    <p id="playerInRoom">0</p>
 
 
     <script src="/socket.io/socket.io.js"></script>
     <script>
-        const orderSocket = io("/party");
+        var io = io();
 
-        orderSocket.on('connection', socket => {
-            console.log("Someone connected");
+        
+        io.emit("player:joingame");
+        io.on("connect", () => {
+            
         })
+
+        io.on("player:givename", (data) => {
+            localStorage.setItem("playerName", data.player);
+            localStorage.setItem("playerIndex", data.playerIndex);
+            console.log(data);
+        })
+
     </script>
 
 </body>

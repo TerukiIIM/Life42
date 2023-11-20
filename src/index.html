@@ -34,14 +34,6 @@
         </div>
     </header>
 
-    <script src="/socket.io/socket.io.js"></script>
-
-    <script src="js/roomSystem.js"></script>
-
-    <script src="js/socket.js"></script>
-    <script src="js/Game.js"></script>
-    <script src="js/Player.js"></script>
-
     <script>
         const menuHamburger = document.querySelector(".menu-hamburger")
         const navLinks = document.querySelector(".nav-links")
@@ -53,10 +45,6 @@
             textBox.style.display = navLinks.classList.contains("mobile-menu") ? "none" : "block";
             heroBtn.style.display = navLinks.classList.contains("mobile-menu") ? "none" : "inline-block";
         })
-
-        function startGame() {
-            socket.emit('Game', "Start");
-        }
     </script>
 </body>
 

@@ -1,6 +1,7 @@
 class PlayerService {
 
-    constructor() {
+    constructor(playerName) {
+        this.name = playerName;
         this.hand = [],
         this.malus = [],
         this.love = [],
